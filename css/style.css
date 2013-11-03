@@ -1,0 +1,145 @@
+body{
+	width:100%;
+	font-family: BlockGothicRR-LightExtraCond;
+}
+/*.BlockGothicRR-LightExtraCond{
+	font-family: BlockGothicRR-LightExtraCond;
+	font-weight: normal;
+	font-style: normal;
+}*/
+nav{
+	height:61px;
+	width:1036px;
+	color:white;
+	background-color: black;
+	margin:0 auto;
+	vertical-align: 10px;
+	line-height: 387%;
+	padding:0 50px 0 50px;
+	text-align: right;
+
+}
+nav h1{
+	font-size:240%;
+	float:left;
+}
+nav a{
+	display:inline-block;
+	color:white;
+	margin-left:10px;
+	font-size:1.815em;
+	text-decoration: none;
+	font-weight:100;
+	letter-spacing: -1px;
+}
+.container{
+	width:100%;
+}
+.container2{
+	width:100%;
+}
+@font-face{
+	font-family: blockGothic;
+	src: url('fonts/blockgothic/BlockGothicExtCon');
+}
+.wrapper{
+	position:relative;
+}
+#overlay{position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:black; 
+	opacity:0;
+	z-index:-1;
+}
+
+.intro-image{
+	width:1430px;
+	height:497px;
+}
+.first-image{
+	width:1430px;
+	height:497px;
+	background-image:url('../images/introimg.jpg');
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+.jamey{
+	width:35%;
+
+}
+.fag{
+	/*position:absolute;*/
+	/*left:500px;
+	top:210px;*/
+	/*margin-left: -999px;*/
+	z-index: 2;
+
+
+}
+.fag p{
+	color:white;
+	font-size: 100px;
+}
+.second-image{
+	width:1430px;
+	height:430px;
+	background-image:url('../images/slut.jpg');
+	background-repeat:no-repeat;
+	background-size: 100%;
+
+
+}
+.slut{
+
+}
+.intro-image img{
+	max-width:100%;
+	height:auto;
+}
+.intro-div{
+	width:1430px;
+	height:500px;
+	background-color: #e6e7e8;
+}
+.end-hate{
+	margin: 0 auto;
+	width:65%;
+	padding:3% 0 3% 23%;
+}
+.intro-div h1{
+	margin:0 0 3% 0;
+	font-size:5em;
+	font-family: BlockGothicRR-LightExtraCond;
+}
+.intro-div p{
+	display: inline-block;
+	margin:0 16% 3% 0;
+	font-size:1em;
+	font-family:Courier;
+	font-weight: normal;
+}
+.intro-div button{
+	margin:0 50% 0 25%;
+	background-color: black;
+	border:none;
+	width:125px;
+	height:35px;
+	font-size:25px;
+	line-height:153%;
+	font-family: BlockGothicRR-LightExtraCond;
+	color:white;
+}
+.moreinfo{
+	width:715px;
+	height:250px;
+	float:left;
+	color:white;
+}
+#darkgray{background-color:#181818;}
+#lightgray{background-color:#2b2b2b; font-size: 2em;}
+.clear{
+	clear:both;
+}
