@@ -26,6 +26,31 @@
  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<div id="overlay-modal">
+			<div>
+				<h1>JOIN THE CAMPAIGN</h1>
+				<p>
+					While bullying is nothing new, technology amplifies the most destructive effects of this behavior. Anonymity can create a false sense of security, and social media allows hateful language to travel instantaneously over global networks. While there are instances where anonymity can help protect people from reprisal or protect their identity, it is often used to cloak hateful speech.
+				</p>
+				<p>
+					With this in mind, we will advocate for more constructive and thoughtful communication online by:
+				</p>
+				<ul>
+					<li>Holding ourselves to higher standards when communicating online.</li>
+					<li>Whenever possible, only writing what we would sign our names to.</li>
+					<li>Intervening when we observe others bullied or attacked.</li>
+				</ul>
+				<form action="process_email.php" method="REQUEST">
+	 				<p class="form" id="name" align="left"><label for="name">Your Name:</label></br>
+	 				<input type="text" id="name" name="name"/></p>
+					 <p class="form" id="msg" align="left"><label for="message">Message:</label>
+					 <textarea id="message" name="message"></textarea></p>
+					 <br />
+					<p class="form" id="button" align="left"><input type="submit" value="Send"/></p>
+					 <br />
+				</form>
+			</div>
+		</div>
 	<div class="container">
 		<div class="wrapper">
 			<div id="overlay"></div>
@@ -99,16 +124,34 @@
 		<div class="clear"></div>
 		<div class="outro-div">
 			<div class="learn-more">
-				<h1>PUT AN END TO HATE.</h1>
-				<p>
-					ANYTHING WRITTEN ONLINE can become viral and enduring. Cruel language can lead to bullying and violence. Positive words can lead to learning and growth.
-				</p>
-				<p>
-					We believe that the way we behave online should be no different from the way that we behave in person. We believe that whenever possible, we should say or write online only that we'd be willing to ay or write in person. We pledge to intervene when we observe others being attacked or discriminated against, and to work to foster responsibile and accountable online disclourse.
-				</p>
+				<h1>LEARN MORE. REACH OUT.</h1>
+				<ul>
+					<li>
+						<span>A THIN LINE:</span> MTV'S Sexting, Cyberbullying &amp; Digital Dating Abuse Campaign
+					</li>
+					<li>
+						<span>COMMON SENSE MEDIA:</span> Resource for Parents on Cyberbullying
+					</li>
+					<li>
+						<span>NO HATE SPEECH MOVMENT:</span> Youth Campaign for Human Rights Online
+					</li>
+					<li>
+						<span>THE TREVOR PROJECT:</span> Crisis Intervention / Suicide Prevention for LGBT Youth
+					</li>
+					<li>
+						<span>STOP CYBERBULLYING:</span> Youth Education to Prevent Cyberbullying
+					</li>
+				</ul>
+				<button type="button">EMAIL US</button>
+				
+				
 			</div>
 		</div>
 	</div><!-- end of container-->
+	<footer>
+		<p>&copy;2013 Own What You Think </p>
+		<div class="social-media"><img src="images/facebook.png"/> <img src="images/twittericon.png"/> <img src="images/tumblricon.png"/></div>
+	</footer>
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/effects.js"></script>
 <script src="scripts/waypoints.min.js"></script>

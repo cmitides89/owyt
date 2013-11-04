@@ -9,7 +9,7 @@ body{
 }*/
 nav{
 	height:61px;
-	width:1036px;
+	width:800px;
 	color:white;
 	background-color: black;
 	margin:0 auto;
@@ -45,7 +45,8 @@ nav a{
 .wrapper{
 	position:relative;
 }
-#overlay{position:absolute;
+#overlay{
+	position:absolute;
 	top:0;
 	left:0;
 	width:100%;
@@ -53,6 +54,24 @@ nav a{
 	background:black; 
 	opacity:0;
 	z-index:-1;
+}
+#overlay-modal{
+	/*visibility:hidden;*/
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:black;
+	z-index:999;
+}
+#overlay-modal div{
+	width:800px;
+	height:889px;
+	background-color: black;
+	color:white;
+	text-align: left;
+	margin:100px auto;
 }
 
 .intro-image{
@@ -65,6 +84,7 @@ nav a{
 	background-image:url('../images/introimg.jpg');
 	background-repeat:no-repeat;
 	background-size: 100%;
+	border:none;
 }
 .jamey{
 	width:35%;
@@ -121,7 +141,7 @@ nav a{
 	font-family:Courier;
 	font-weight: normal;
 }
-.intro-div button{
+button{
 	margin:0 50% 0 25%;
 	background-color: black;
 	border:none;
@@ -140,6 +160,28 @@ nav a{
 }
 #darkgray{background-color:#181818;}
 #lightgray{background-color:#2b2b2b; font-size: 2em;}
+
 .clear{
 	clear:both;
+}
+.outro-div{
+	width:1430px;
+	height:350px;
+}
+.learn-more{
+	margin: 0 auto;
+	width:65%;
+	padding:3% 0 3% 23%;
+}
+footer{ 
+	width:1440px;
+	height:92px;
+	background-color: #000000;
+	color:white;
+	font-size: 2em;
+}
+.social-media{ float:right;}
+.social-media img{
+	width: 24px;
+	height: 26px;
 }
