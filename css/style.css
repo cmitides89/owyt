@@ -8,8 +8,10 @@ body{
 	font-style: normal;
 }*/
 nav{
+	position: relative;
 	height:61px;
 	width:800px;
+	z-index:3;
 	color:white;
 	background-color: black;
 	margin:0 auto;
@@ -49,11 +51,11 @@ nav a{
 	position:absolute;
 	top:0;
 	left:0;
-	width:100%;
+	width:1430px;
 	height:100%;
-	background:black; 
+	background-color: black;
 	opacity:0;
-	z-index:-1;
+	z-index:1;
 }
 #overlay-modal{
 	/*visibility:hidden;*/
@@ -61,14 +63,12 @@ nav a{
 	top:0;
 	left:0;
 	width:100%;
-	height:100%;
-	background:black;
-	z-index:999;
+	background-image:url('../images/transparent.png'); 
+	z-index:1;
 }
-#overlay-modal div{
+.inner-modal{
 	width:800px;
 	height:889px;
-	background-color: black;
 	color:white;
 	text-align: left;
 	margin:100px auto;
@@ -81,28 +81,62 @@ nav a{
 .first-image{
 	width:1430px;
 	height:497px;
+	margin-bottom: -1px;
 	background-image:url('../images/introimg.jpg');
 	background-repeat:no-repeat;
 	background-size: 100%;
 	border:none;
 }
+.rip-date{
+	font-size:65px; 
+	color:#e6e7e8;  
+	top: 240px;
+	left:374px;
+	position:absolute;
+	z-index:4;
+}
+
 .jamey{
-	width:35%;
+	position:absolute;
+	top:159px;
+	left:606px;
+	color:#e6e7e8;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 100;
+	font-size: 15px;
+	z-index:2;
 
 }
+.jamey2{
+	position:absolute;
+	z-index:2;
+	top:300px;
+	left:606px;
+	color:#e6e7e8;
+	font-family: "Courier New", Courier, monospace;
+	font-weight:100;
+	font-size:15px;
+
+}
+/*.fag-def{
+	margin-bottom:50px;
+	
+}
+.fag-def2{
+	margin-top: 115px;
+}*/
 .fag{
-	/*position:absolute;*/
-	/*left:500px;
-	top:210px;*/
 	/*margin-left: -999px;*/
+	color:black;
+	position:absolute;
+	top:90px;
+	left:569px;
+	font-size: 409px;
 	z-index: 2;
 
 
 }
-.fag p{
-	color:white;
-	font-size: 100px;
-}
+
 .second-image{
 	width:1430px;
 	height:430px;
