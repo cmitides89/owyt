@@ -12,7 +12,7 @@ $(document).ready(function(){
 				// done fading.
 		});
 		$(".fag").css({color:'#191919'});
-	}, 5000);
+	}, 3000);
 				//js modal //
 	// onclick=function overlay(){
 	// 	el= document.getElementById("overlay-modal");

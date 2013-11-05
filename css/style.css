@@ -136,6 +136,42 @@ nav a{
 
 
 }
+.rip-date2{
+	font-size:65px; 
+	color:#e6e7e8;  
+	top: 204px;
+	left:782px;
+	position:absolute;
+	z-index:4;
+	letter-spacing: 1.5px;
+
+}
+.slut{
+	color:#191919;
+	position:absolute;
+	top:63px;
+	left:518px;
+	font-size:409px;
+	z-index:2;
+
+}
+.rebecca{
+	position:absolute;
+	color:#e6e7e8;
+	font-family: "Courier New", Courier, monospace;
+	font-weight:100;
+	font-size:14px;
+	top:136px;
+	left:556px;
+	z-index:3;
+	line-height: 23px;
+	text-align: left;
+
+
+}
+.rebecca2{
+
+}
 
 .second-image{
 	width:1430px;
@@ -146,9 +182,26 @@ nav a{
 
 
 }
-.slut{
+/*#neg-indent{
+	text-indent: -49px;
+	top:151px;
+	line-height: 23px;
+
 
 }
+#neg-indent2{
+	top:161px;
+	text-indent: -7px;
+	line-height: 25px;
+
+}
+#indent{
+	top:171px;
+	line-height: 39px;
+
+
+}*/
+
 .intro-image img{
 	max-width:100%;
 	height:auto;
