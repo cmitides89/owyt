@@ -27,41 +27,52 @@
  <script src="scripts/jquery.viewport.mini.js"></script>
 </head>
 <body>
-	<!-- <div id="overlay-modal">
-			<div class="inner-modal">
+	<div id="overlay-modal">
+			<div class="inner-modal"><a name="overlay-modal"></a>
 				<h1>JOIN THE CAMPAIGN</h1>
 				<p>
-					While bullying is nothing new, technology amplifies the most destructive effects of this behavior. Anonymity can create a false sense of security, and social media allows hateful language to travel instantaneously over global networks. While there are instances where anonymity can help protect people from reprisal or protect their identity, it is often used to cloak hateful speech.
+					While bullying is nothing new, technology amplifies the most destructive effects <br /> of this behavior. Anonymity can create a false sense of security, and social<br /> media allows hateful language to travel instantaneously over global networks.<br /> While there are instances where anonymity can help protect people from<br /> reprisal or protect their identity, it is often used to cloak hateful speech.
 				</p>
+				<br />
 				<p>
 					With this in mind, we will advocate for more constructive and thoughtful communication online by:
 				</p>
+				<br />
 				<ul>
 					<li>Holding ourselves to higher standards when communicating online.</li>
 					<li>Whenever possible, only writing what we would sign our names to.</li>
 					<li>Intervening when we observe others bullied or attacked.</li>
 				</ul>
 				<form action="process_email.php" method="REQUEST">
-	 				<p class="form" id="name" align="left"><label for="name">Your Name:</label></br>
-	 				<input type="text" id="name" name="name"/></p>
-					 <p class="form" id="msg" align="left"><label for="message">Message:</label>
+	 				<p class="form" id="name" align="left">
+	 					<label for="name">Name</label>
+	 				
+	 				<input class="input" type="text" id="name" name="name"/></p>
+	 				<br />
+	 				<p class="form" id="email" align="left">
+	 				<label for="email">Email</label>
+	 				<input class="input" type="text" id="email" name="email"/></p>
+	 				<br />
+					 <p class="form" id="msg" align="left">
+					 <label for="message">Share your ideas on how to encourage others to own what they think:</label>					 
 					 <textarea id="message" name="message"></textarea></p>
-					 <br />
-					<p class="form" id="button" align="left"><input type="submit" value="Send"/></p>
+					 
+					<p class="form" align="left">
+						<input id="buttonz" type="submit" value="SUBMIT"/></p>
 					 <br />
 				</form>
 			</div>
-		</div> -->
+		</div>
 	<div class="container">
 		<div class="wrapper">
 			<div id="overlay"></div>
 			<div class="first-image">
 				<nav>
 					<h1>OWN WHAT YOU THINK</h1>
-					<a href="#">JOIN</a>
-					<a href="#">HISTORY</a>
-					<a href="#">RESOURCES</a>
-					<a href="#">CONTACT</a>
+					<a href="#join">JOIN</a>
+					<a href="#history">HISTORY</a>
+					<a href="#resources">RESOURCES</a>
+					<a href="#contact">CONTACT</a>
 				</nav>
 				<!-- <img src="images/introimg.jpg" width="3840"/> -->
 				<p class="fag">FAG</p>
@@ -76,7 +87,7 @@
 	</div>
 	<div class="container2">
 		<div class="intro-div">
-			<div class="end-hate">
+			<div class="end-hate"><a name="join"></a>
 				<h1>PUT AN END TO HATE.</h1>
 				<p>
 					ANYTHING WRITTEN ONLINE can become viral and enduring. Cruel language can lead to bullying and violence. Positive words can lead to learning and growth.
@@ -84,11 +95,11 @@
 				<p>
 					We believe that the way we behave online should be no different from the way that we behave in person. We believe that whenever possible, we should say or write online only that we'd be willing to ay or write in person. We pledge to intervene when we observe others being attacked or discriminated against, and to work to foster responsibile and accountable online disclourse.
 				</p>
-				<button type="button">JOIN CAMPAIGN</button>
+				<button class="buttons" type="button">JOIN CAMPAIGN</button>
 			</div>
 		</div>
 		<div class="moreinfo" id="lightgray">
-			<div class="moreinfo-inner">
+			<div class="moreinfo-inner"><a name="history"></a>
 				<h2>
 					<span class="small-punctuation">"</span>IF ANONYMITY BRINGS OUT THE WORST<br/> IN PEOPLE<span class="small-punctuation">,</span> THEN IS IT WISE TO CONDONE<br /> &amp; PASSIVELY SUPPORT TECHNOLOGY<br/> THAT FACILIATES SOCIAL TOXICITY?<span class="small-punctuation">"</span>
 				</h2>
@@ -142,7 +153,7 @@
 						</p>
 			</div>
 		</div>
-		<div class="moreinfo" id="darkgray">
+		<div class="moreinfo" id="darkgray"><a name="resources"></a>
 			<div class="moreinfo-inner3">
 				<p>
 					Today, hate speech continues to profilerate<br /> throughout the Internet, normalized in the form<br /> of YouTube comments, animated GIFs, and tweets.<br /> Online anonymity affords users a sense of<br /> security that fosters a culture of cruelty and<br /> bigotry. Our goal is to create a conversation<br /> about the consequences of hateful speech that<br /> rethinks how we communicate online. Social media<br /> is full of positive potential; we can tap into<br /> it by holding each other accountable.
@@ -159,7 +170,7 @@
 		</div>
 		<div class="clear"></div>
 		<div class="outro-div">
-			<div class="learn-more">
+			<div class="learn-more"><a name="contact"></a>
 				<h1>LEARN MORE. REACH OUT.</h1>
 				<ul>
 					<li>
@@ -178,7 +189,7 @@
 						<span>STOP CYBERBULLYING:</span> Youth Education to Prevent Cyberbullying
 					</li>
 				</ul>
-				<button type="button">EMAIL US</button>
+				<a href="#overlay-modal"><button class="buttons" type="button">EMAIL US</button></a>
 				
 				
 			</div>

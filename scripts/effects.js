@@ -13,7 +13,7 @@ $(document).ready(function(){
 		});
 		$(".fag").css({color:'#191919'});
 	}, 3500);
-				//js modal //
+									//j mother fucking query modal //
 	// onclick=function overlay(){
 	// 	el= document.getElementById("overlay-modal");
 	// 	el.style.visibility = (el.style.visibility == "visible")? "hidden":"visible";
@@ -25,6 +25,13 @@ $(document).ready(function(){
 	 // $(".second-image").mouseenter(function(evt){
 
 	 // });
+	$(".buttons").click(function(){
+		$("#overlay-modal").show();
+		console.log("fuck off");
+	});
+	$("#overlay-modal").click(function(){
+		$("#overlay-modal").hide();
+	});
  });
 var i = 1;
 $(document).scroll(function(){
