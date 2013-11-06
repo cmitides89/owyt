@@ -1,0 +1,27 @@
+/* @license
+ * MyFonts Webfont Build ID 2678182, 2013-10-30T16:31:52-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Block Gothic RR Light ExtraCond by Red Rooster Collection
+ * URL: http://www.myfonts.com/fonts/redrooster/block-gothic-rr/light-extra-condensed/
+ * Copyright: Copyright (c) 2012 by International TypeFounders, Inc. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2678182
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/28dda6");
+
+  
+@font-face {font-family: 'BlockGothicRR-LightExtraCond';src: url('webfonts/28DDA6_0_0.eot');src: url('webfonts/28DDA6_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28DDA6_0_0.woff') format('woff'),url('webfonts/28DDA6_0_0.ttf') format('truetype');}
+ 

@@ -32,6 +32,7 @@ nav a{
 	font-size:1.815em;
 	text-decoration: none;
 	font-weight:100;
+	letter-spacing: -1px;
 }
 .container{
 	width:100%;
@@ -158,14 +159,13 @@ textarea #message{
 
 .jamey{
 	position:absolute;
-	top:150px;
+	top:159px;
 	left:999px;
 	color:#e6e7e8;
 	font-family: "Courier New", Courier, monospace;
 	font-weight: 100;
 	font-size: 15px;
 	z-index:2;
-	line-height: 145%;
 
 }
 .jamey2{
@@ -177,11 +177,7 @@ textarea #message{
 	font-family: "Courier New", Courier, monospace;
 	font-weight:100;
 	font-size:15px;
-	line-height: 145%;
 
-}
-.jamey2 span{
-	line-height:307%;
 }
 /*.fag-def{
 	margin-bottom:50px;
@@ -194,9 +190,9 @@ textarea #message{
 	margin-left: -999px;
 	color:black;
 	position:absolute;
-	top:74px;
+	top:90px;
 	left:569px;
-	font-size: 469px;
+	font-size: 409px;
 	z-index: 2;
 
 
@@ -325,9 +321,8 @@ textarea #message{
 }
 .end-hate{
 	margin: 0 auto;
-	width:70%;
-	padding:5% 0 3% 23%;
-	line-height: 170%;
+	width:65%;
+	padding:3% 0 3% 23%;
 }
 .intro-div h1{
 	margin:0 0 3% 0;
@@ -342,7 +337,7 @@ textarea #message{
 	font-weight: normal;
 }
 button{
-	margin:3% 50% 0 25%;
+	margin:3% 50% 0 23%;
 	background-color: black;
 	border:none;
 	width:165px;
@@ -354,16 +349,16 @@ button{
 }
 .moreinfo{
 	width:50%;
-	height:350px;
+	height:500px;
 	float:left;
 	color:white;
 	display: inline-block;
 }
 .moreinfo-inner{
-	font-size:51px;
+	font-size:59px;
 	width:72%;
 	float:right;
-	margin:-3px 26px 0 0;
+	margin:106px 10px 0 0;
 	text-indent: -10px;
 	letter-spacing: 1px;
 	word-spacing: 2px;
@@ -376,14 +371,12 @@ button{
 	text-decoration: none;
 	display:inline-block;
 	width:170px;
+	border-bottom: solid 1px white;
 	padding-bottom: 4px;
 	margin:30px 0 0 9px;
 }
-.article{
-	border-bottom: solid 1px white;
-}
 .moreinfo-inner2 {
-	margin: 40px 0 0 33px;
+	margin: 96px 0 0 33px;
 	width:75%;
 	color:white;
 	line-height: 175%;
@@ -396,15 +389,15 @@ button{
 	font-family:"Courier New", Courier monospace;
 	font-weight:100;
 	width:75%;
-	margin:48px 0 0 184px;
+	margin:79px 0 0 196px;
 	color:white;
-	line-height: 170%;
-	font-size: 15px;
+	line-height: 175%;
+	font-size: 16px;
 
 }
 .moreinfo-inner4{
-	margin:44px 137px 0 0;
-	font-size:50px;
+	margin:76px 137px 0 0;
+	font-size:59px;
 	width:72%;
 	float:right;
 	text-indent: -10px;
