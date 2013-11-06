@@ -27,11 +27,17 @@ $(document).ready(function(){
 	 // });
 	$(".buttons").click(function(){
 		$("#overlay-modal").show();
-		console.log("fuck off");
 	});
-	$("#overlay-modal").click(function(){
-		$("#overlay-modal").hide();
+	$(document).mousedown(function(e){
+			var clicked = $(e.target);
+		if (clicked.is('.inner-modal') || clicked.parents().is('.inner-modal')){
+				return;
+			} else { $('#overlay-modal').hide();
+		}
 	});
+	// $("#overlay-modal").click(function(){
+	// 	$("#overlay-modal").hide();
+	// });
  });
 var i = 1;
 $(document).scroll(function(){
