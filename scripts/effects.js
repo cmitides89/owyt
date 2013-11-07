@@ -13,18 +13,7 @@ $(document).ready(function(){
 		});
 		$(".fag").css({color:'#191919'});
 	}, 3500);
-									//j mother fucking query modal //
-	// onclick=function overlay(){
-	// 	el= document.getElementById("overlay-modal");
-	// 	el.style.visibility = (el.style.visibility == "visible")? "hidden":"visible";
-	// };
-	 // $("body").click(function(event){
-  //       alert("This is the x coordinate: "+event.pageX);
-  //       alert("This is the y coordinate: "+event.pageY);
-  //   });
-	 // $(".second-image").mouseenter(function(evt){
-
-	 // });
+//j mother fucking query modal //
 	$(".buttons").click(function(){
 		$("#overlay-modal").show();
 	});
@@ -35,19 +24,36 @@ $(document).ready(function(){
 			} else { $('#overlay-modal').hide();
 		}
 	});
-	// $("#overlay-modal").click(function(){
-	// 	$("#overlay-modal").hide();
-	// });
  });
+// add margins depending on screen size//
+ var bestsize = 1445;
+ var width = $('.first-image').width();
+ // if ($('.first-image').width() >= bestsize ){
+	// $('.first-image').css({margin: "0 auto"});
+ // });
+// $(window).resize(function(){
+// if( width >= bestsize){
+// 	$('.first-image').css({margin : '0 auto'});
+
+// }
+// else {
+// 	$('.first-image').css({margin :' 0 0 -1px 0'});
+
+// }
+// });
+// if ()
+// 1445
+
+// slut animation//
 var i = 1;
 $(document).scroll(function(){
 	if($(window).scrollTop() >= 1100 && $(window).scrollTop() <= 1150 && i === 1){
 		setTimeout(function(){
-		$(".slut").css({marginLeft:'-999px'}).animate({marginLeft:'0px'}, {duration: 2000, queue:false});
+		$(".slut").css({marginLeft:'-999px'}).animate({marginLeft:'39px'}, {duration: 2000, queue:false});
 		$("#reb1").css({marginLeft:'999px'}).animate({marginLeft:'175px'}, {duration: 2000, queue:false});
 		$("#reb2").css({marginLeft:'999px'}).animate({marginLeft:'175px'}, {duration: 2000, queue:false});
-		$("#reb3").css({marginLeft:'999px'}).animate({marginLeft:'175px'}, {duration: 2000, queue:false});
-		$(".rip-date2").css({left:'999px'}).animate({left:'452px'}, {duration: 2000, queue: false});
+		$("#reb3").css({marginLeft:'999px'}).animate({marginLeft:'204px'}, {duration: 2000, queue:false});
+		$(".rip-date2").css({left:'999px'}).animate({left:'451px'}, {duration: 2000, queue: false});
 		$('#overlay2').animate({ opacity: 1, }, 2000, function(){
 				// done fading.
 		});

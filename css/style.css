@@ -1,6 +1,22 @@
+.first-image{
+  margin: 0 0 -1px 0;
+}
+
+@media (min-width: 1445px) {
+  .first-image{
+    margin : 0 auto;
+  }
+  
+}
+@media (min-width:1622px){
+.second-image{
+  	margin: 0 auto;
+  }
+}
 body{
 	width:100%;
 	min-width:800px;
+	background:black;
 
 	font-family: BlockGothicRR-LightExtraCond;
 	font-weight: 100;
@@ -163,7 +179,7 @@ textarea #message{
 	overflow: hidden;
 }
 .first-image{
-	width:100%;
+	width:1622px;
 	height:497px;
 	overflow: hidden;
 	margin-bottom: -1px;
@@ -237,7 +253,7 @@ textarea #message{
 .rip-date2{
 	font-size:65px; 
 	color:#e6e7e8;  
-	top: 156px;
+	top: 144px;
 	left:0px;
 	position:relative;
 	z-index:4;
@@ -252,7 +268,7 @@ textarea #message{
 	text-align: center;
 	top:63px;
 	width: 800px;
-	font-size:409px;
+	font-size:472px;
 	z-index:2;
 
 }
@@ -265,83 +281,61 @@ textarea #message{
 	z-index:3;
 	line-height: 23px;
 	text-align: right;
-	/*text-indent: 44px;*/
 	width: 450px;
 	left: 0;
 	margin-left: 5000px;
 
 }
-.rebecca span{
-}
 #reb1{
-	top:126px;
+	top:132px;
 }
 #reb2{
 
-	top:187px;
+	top:149px;
 	
 }
 #reb3{
-	top:220px;
+	top:157px;
 
 }
 
 .second-image{
-	width:100%;
+	width:1622px;
 	height:497px;
 	overflow: hidden;
 	background-image:url('../images/slut.jpg');
 	background-repeat:no-repeat;
 	background-size: 100%;
+	background-position: 100%;
 
 
 }
-/*#neg-indent{
-	text-indent: -49px;
-	top:151px;
-	line-height: 23px;
-
-
-}
-#neg-indent2{
-	top:161px;
-	text-indent: -7px;
-	line-height: 25px;
-
-}
-#indent{
-	top:171px;
-	line-height: 39px;
-
-
-}*/
-
 .intro-image img{
 	max-width:100%;
 	height:auto;
 }
 .intro-div{
 	width:100%;
-	height:365px;
+	height:444px;
 	background-color: #e6e7e8;
 }
 .end-hate{
 	margin: 0 auto;
 	width:952px;
-	padding:47px 0 14px 266px;
+	padding:68px 0 14px 266px;
 	line-height: 162%;
 }
 .end-hate button{
 	margin-left: 259px;
 }
 .intro-div h1{
-	margin:0 0 3% 0;
+	margin:0 0 6% 0;
 	font-size:5em;
 	font-family: BlockGothicRR-LightExtraCond;
 }
 .intro-div p{
 	display: inline-block;
-	margin:0 16% 1% 0;
+	margin:0 16% 2% 0;
 	font-size:1em;
 	font-family:"Courier New", Courier monospace;
 	font-weight: normal;
