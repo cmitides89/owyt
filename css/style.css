@@ -440,6 +440,7 @@ button{
 .outro-div{
 	width:100%;
 	height:520px;
+	background-color: #e6e7e8;
 }
 .learn-more{
 	margin: 0 auto;
@@ -448,9 +449,12 @@ button{
 }
 .learn-more li{
 	font-family: "Courier New" Courier monospace;
-	font-size: 20px;
+	font-size: 17px;
 	line-height: 217%;
 
+}
+.learn-more span{
+	font-size:20px;
 }
 .learn-more h1{
 	font-size: 100px;
@@ -458,6 +462,7 @@ button{
 }
 .learn-more button{
 	margin-left:41%;
+	margin-top: 39px;
 }
 footer{ 
 	width:100%;
