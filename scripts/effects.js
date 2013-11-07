@@ -2,12 +2,12 @@ $(document).ready(function(){
 	setTimeout(function(){
 		$(".fag").css({marginLeft:'-999px'}).animate(
 			{marginLeft: '0px'},{duration: 2700, queue:false});
-		$(".jamey").css({left:'999px'}).animate(
-			{left:'606px'},{duration:2700, queue: false});
-		$(".jamey2").css({left:'999px'}).animate(
-			{left:'606px'},{duration:2700, queue: false});
-		$(".rip-date").css({left:'999px'}).animate(
-			{left:'375px'}, {duration:2700, queue: false});
+		$(".jamey").css({marginLeft:'999px'}).animate(
+			{marginLeft:'290px'},{duration:2700, queue: false});
+		$(".jamey2").css({marginLeft:'999px'}).animate(
+			{marginLeft:'290px'},{duration:2700, queue: false});
+		$(".rip-date").css({marginLeft:'999px'}).animate(
+			{marginLeft:'65px'}, {duration:2700, queue: false});
 		$('#overlay').animate({ opacity: 1, }, 5300, function(){
 				// done fading.
 		});
@@ -44,16 +44,10 @@ $(document).scroll(function(){
 	if($(window).scrollTop() >= 1100 && $(window).scrollTop() <= 1150 && i === 1){
 		setTimeout(function(){
 		$(".slut").css({marginLeft:'-999px'}).animate({marginLeft:'0px'}, {duration: 2000, queue:false});
-		$("#first-p").css({left:'999px'}).animate({left:'513px'}, {duration: 2000, queue:false});
-		$("#second-p").css({left:'999px'}).animate({left:'462px'}, {duration: 2000, queue:false});
-		$("#third-p").css({left:'999px'}).animate({left:'499px'}, {duration: 2000, queue:false});
-		$("#fourth-p").css({left:'999px'}).animate({left:'620px'}, {duration: 2000, queue:false});
-		$("#fifth-p").css({left:'999px'}).animate({left:'461px'}, {duration: 2000, queue:false});
-		$("#sixth-p").css({left:'999px'}).animate({left:'458px'}, {duration: 2000, queue:false});
-		$("#seventh-p").css({left:'999px'}).animate({left:'531px'}, {duration: 2000, queue:false});
-		$("#eighth-p").css({left:'999px'}).animate({left:'679px'}, {duration: 2000, queue:false});
-		$("#ninth-p").css({left:'999px'}).animate({left:'600px'}, {duration: 2000, queue:false});
-		$(".rip-date2").css({left:'999px'}).animate({left:'782px'}, {duration: 2000, queue: false});
+		$("#reb1").css({marginLeft:'999px'}).animate({marginLeft:'175px'}, {duration: 2000, queue:false});
+		$("#reb2").css({marginLeft:'999px'}).animate({marginLeft:'175px'}, {duration: 2000, queue:false});
+		$("#reb3").css({marginLeft:'999px'}).animate({marginLeft:'175px'}, {duration: 2000, queue:false});
+		$(".rip-date2").css({left:'999px'}).animate({left:'452px'}, {duration: 2000, queue: false});
 		$('#overlay2').animate({ opacity: 1, }, 2000, function(){
 				// done fading.
 		});
