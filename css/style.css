@@ -270,7 +270,7 @@ textarea #message{
 	width:450px;
 	font-size:65px; 
 	color:#e6e7e8;  
-	top: 126px;
+	top: 108px;
 	left:999px;
 	margin-left: 600px;
 	z-index:4;
@@ -283,9 +283,9 @@ textarea #message{
 	/*display:inline-block;*/
 	margin-left: -999px;
 	text-align: center;
-	top:31px;
+	top:23px;
 	width: 800px;
-	font-size:472px;
+	font-size:488px;
 	z-index:2;
 	/*transform : scale(1,1.1);
 	-webkit-transform:scale(1,1.1);*/ /* Safari and Chrome */
@@ -309,11 +309,11 @@ textarea #message{
 
 }
 #reb1{
-	top:109px;
+	top:82px;
 }
 #reb2{
 
-	top:120px;
+	top:112px;
 	
 }
 #reb2 span{
@@ -324,7 +324,7 @@ textarea #message{
 
 }
 #reb3{
-	top:129px;
+	top:127px;
 
 }
 
