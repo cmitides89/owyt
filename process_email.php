@@ -17,7 +17,7 @@ function spamcheck($field)
     }
   }
 
-if (isset($_REQUEST['email']))
+if (isset($_REQUEST['name']))
   {//if "email" is filled out, proceed
 
   //check if the email address is invalid
@@ -28,24 +28,11 @@ if (isset($_REQUEST['email']))
     }
   else
     {//send email
-    $email = $_REQUEST['email'] ;
 	$name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'] ;
-    $message = $_REQUEST['message'] ;
+  $message = $_REQUEST['message'] ;
     mail("mitides.constantin@gmail.com", "Subject: $subject",
     $message, "From: $email" );
     header("Location:success.php");
     }
-  }
-else
-  {//if "email" is not filled out, display the form
-  echo "<form method='post' action='mailform.php'>
-  Email: <input name='email' type='text' /><br />
-  Subject: <input name='subject' type='text' /><br />
-  Message:<br />
-  <textarea name='message' rows='15' cols='40'>
-  </textarea><br />
-  <input type='submit' />
-  </form>";
   }
 ?>

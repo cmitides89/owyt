@@ -4,7 +4,12 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* Styles */
 }
-
+/*@media
+and (min-width: 900px) 
+and (max-width: 1440px){
+	.first-image{ width:100%;}
+	.second-image{ width:100%;}
+}*/
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
@@ -50,11 +55,11 @@ and (orientation : portrait) {
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width: 1440px){
-	.first-image{ width:1430px; height:497px;}
+	/*.first-image{ width:1430px; height:497px;}
 	.intro-div{ width:1430px; height:500px;}
 	.moreinfo{ width:712px; height:250px;}
 	.intro-image{ width:1430px; height:497px;}
-	.second-image{width:1430px; height:430px;}
+	.second-image{width:1430px; height:430px;}*/
 }
 /*@media only screen 
 and (max-width : 1920px)
@@ -68,9 +73,9 @@ and (min-width: 980px){
 @media only screen 
 and (max-width : 1224px) {
 /* Styles */
-.first-image{ width:1224px; height:425px;}
+/*.first-image{ width:1224px; height:425px;}
 .intro-div{ width:1224px; height:425px;}
-.moreinfo{ width:612px; height:213px;}
+.moreinfo{ width:612px; height:213px;}*/
 
 }
 

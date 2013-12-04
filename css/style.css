@@ -1,8 +1,4 @@
-.first-image{
-  margin: 0 0 -1px 0;
-}
-
-@media (min-width: 1445px) {
+/*@media (min-width: 1450px) {
   .first-image{
     margin : 0 auto;
   }
@@ -12,11 +8,13 @@
 .second-image{
   	margin: 0 auto;
   }
-}
+}*/
+
 body{
 	width:100%;
 	min-width:800px;
 	background:black;
+	overflow-x: hidden;
 
 	font-family: BlockGothicRR-LightExtraCond;
 	font-weight: 100;
@@ -30,28 +28,45 @@ body{
 	position:absolute;
 	width:100%;
 }
+.xcontainer{
+	width:100%;
+	height:100%;
+
+}
+.xbox{
+	background-image:url('../images/x.png');
+	background-position:center;
+	background-repeat: no-repeat;
+	height:20px;
+	width:20px;
+	margin:0 40px 40px 0;
+	float:right;
+	cursor:pointer;
+}
 nav{
 	position: relative;
 	height:61px;
-	width:800px;
+	width:924px;
 	z-index:3;
 	color:white;
 	background-color: black;
 	margin:0 auto;
 	vertical-align: 10px;
 	line-height: 387%;
-	padding:0 50px 0 50px;
+	padding:0 17px 0 17px;
 	text-align: right;
+	letter-spacing: 1.2px;
 
 }
 nav h1{
 	font-size:240%;
 	float:left;
+	word-spacing: 3px;
 }
 nav a{
 	display:inline-block;
 	color:white;
-	margin-left:10px;
+	margin-left:20px;
 	font-size:1.815em;
 	text-decoration: none;
 	font-weight:100;
@@ -97,20 +112,23 @@ nav a{
 	top:0;
 	left:0;
 	width:100%;
+	height:2707px;
 	background-image:url('../images/transparent.png'); 
 	z-index:900;
 }
 .inner-modal{
-	width:800px;
+	width:810px;
 	height:889px;
 	color:white;
 	z-index:999;
 	text-align: left;
-	margin:150px auto;
+	margin:0 auto;
+	overflow-y: auto;
 }
 .inner-modal h1{
 	font-size: 40px;
-	letter-spacing: 1px;
+	letter-spacing: 1.5px;
+	padding-top: 40px;
 	margin-bottom:20px;
 
 }
@@ -130,7 +148,10 @@ nav a{
 	margin-top:15px;
 }
 form{
-	margin-top:85px;
+	margin-top:20px;
+}
+.sign-here{
+	text-decoration: underline;
 }
 .input{
 	width:300px;
@@ -179,20 +200,21 @@ textarea #message{
 	overflow: hidden;
 }
 .first-image{
-	width:1622px;
+	width:100%;
 	height:497px;
 	overflow: hidden;
 	margin-bottom: -1px;
-	background-image:url('../images/introimg.jpg');
+	/*background-image:url('../images/introimg.jpg');
 	background-repeat:no-repeat;
-	background-size: 100%;
+	background-size: 100%;*/
 	border:none;
 }
 .rip-date{
 	font-size:65px; 
 	color:#e6e7e8;  
-	top: 45px;
+	top: 58px;
 	left:0;
+	letter-spacing: 2px;
 	margin-left: 5000px;
 	position:relative;
 	z-index:4;
@@ -230,13 +252,6 @@ textarea #message{
 .jamey2 span{
 	line-height:307%;
 }
-/*.fag-def{
-	margin-bottom:50px;
-	
-}
-.fag-def2{
-	margin-top: 115px;
-}*/
 .fag{
 	margin-left: -999px;
 	color:black;
@@ -251,11 +266,13 @@ textarea #message{
 
 }
 .rip-date2{
+	position:relative;
+	width:450px;
 	font-size:65px; 
 	color:#e6e7e8;  
-	top: 144px;
-	left:0px;
-	position:relative;
+	top: 126px;
+	left:999px;
+	margin-left: 600px;
 	z-index:4;
 	letter-spacing: 1.5px;
 
@@ -266,10 +283,15 @@ textarea #message{
 	/*display:inline-block;*/
 	margin-left: -999px;
 	text-align: center;
-	top:63px;
+	top:31px;
 	width: 800px;
 	font-size:472px;
 	z-index:2;
+	/*transform : scale(1,1.1);
+	-webkit-transform:scale(1,1.1);*/ /* Safari and Chrome */
+	/*-moz-transform:scale(1,1.1); 
+	-ms-transform:scale(1,1.1); 
+	-o-transform:scale(1,1.1); */
 
 }
 .rebecca{
@@ -287,73 +309,79 @@ textarea #message{
 
 }
 #reb1{
-	top:132px;
+	top:109px;
 }
 #reb2{
 
-	top:149px;
+	top:120px;
 	
 }
+#reb2 span{
+	position:relative;
+	left:10px;
+	margin-left:30px;
+	z-index: 5;
+
+}
 #reb3{
-	top:157px;
+	top:129px;
 
 }
 
 .second-image{
-	width:1622px;
+	width:100%;
 	height:497px;
 	overflow: hidden;
-	background-image:url('../images/slut.jpg');
-	background-repeat:no-repeat;
-	background-size: 100%;
-	background-position: 100%;
-
-
-}
-.intro-image img{
-	max-width:100%;
-	height:auto;
 }
 .intro-div{
 	width:100%;
-	height:444px;
+	height:470px;
 	background-color: #e6e7e8;
 }
 .end-hate{
+	padding:61px 0 10px 0;
 	margin: 0 auto;
-	width:952px;
-	padding:68px 0 14px 266px;
+	width:929px;
 	line-height: 162%;
 }
 .end-hate button{
-	margin-left: 259px;
+	margin-left:378px;
+	padding-bottom: 7px;
+	padding-right: 3px;
+	margin-top:10px;
 }
 .intro-div h1{
-	margin:0 0 6% 0;
-	font-size:5em;
+	margin:0 0 4% 0;
+	letter-spacing: 0.4pt;
+	font-size:65px;
 	font-family: BlockGothicRR-LightExtraCond;
 }
+
 .intro-div p{
+	word-spacing: -1px;
 	display: inline-block;
-	margin:0 16% 2% 0;
-	font-size:1em;
+	margin:0 0 3% 0;
+	font-size:18px;
+	line-height: 158%;
 	font-family:"Courier New", Courier monospace;
 	font-weight: normal;
 }
+
 button{
 	margin:10px 100px 0 80px;
 	background-color: black;
 	border:none;
-	width:165px;
+	width:178px;
 	height:42px;
-	font-size:25px;
-	line-height:172%;
+	font-size:22px;
+	letter-spacing: 1.2px;
+	line-height:195%;
 	font-family: BlockGothicRR-LightExtraCond;
 	color:white;
 }
 .moreinfo{
 	width:50%;
-	height:350px;
+	height:365px;
 	float:left;
 	color:white;
 	display: inline-block;
@@ -362,7 +390,7 @@ button{
 	font-size:51px;
 	width:444px;
 	float:right;
-	margin:-3px 26px 0 0;
+	margin:7px 26px 0 0;
 	text-indent: -10px;
 	letter-spacing: 1px;
 	word-spacing: 2px;
@@ -373,19 +401,20 @@ button{
 	font-size:23px;
 	color:white;
 	text-decoration: none;
-	display:inline-block;
-	width:170px;
-	padding-bottom: 4px;
-	margin:30px 0 0 0;
+	border-bottom: 1px solid white;
+	padding-bottom: 3px;
+	margin-left:11px;
 }
 .article{
-	border-bottom: solid 1px white;
+	display:block;
+	width:177px;
+	height:44px;
 }
 .moreinfo-inner2 {
-	margin: 40px 0 0 33px;
+	margin: 55px 0 0 36px;
 	width:565px;
 	color:white;
-	line-height: 175%;
+	line-height: 157%;
 	font-size: 16px;
 	font-weight: 100;
 	font-family:"Courier New", Courier monospace;
@@ -396,7 +425,7 @@ button{
 	font-weight:100;
 	color:white;
 	width:450px;
-	margin:45px 10px 0 0;
+	margin:57px 23px 0 0;
 	line-height: 170%;
 	text-align: left;
 	float:right;
@@ -405,7 +434,7 @@ button{
 }
 .moreinfo-inner4{
 	width:450px;
-	margin: 48px 0 0 65px;
+	margin: 57px 0 0 44px;
 	font-size:50px;
 	text-align: left;
 	float:left;
@@ -416,65 +445,97 @@ button{
 }
 .moreinfo-inner4 a{
 	text-indent: 1px;
-	font-size:23px;
-	color:white;
+	font-size: 23px;
+	color: white;
 	text-decoration: none;
-	display:inline-block;
-	width:175px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid white;			
+}
+.moreinfo-wired{
+	display:block;
+	width:180px;
+	height:44px;
 	border-bottom: solid 1px white;
 	padding-bottom: 4px;
-	margin:30px 0 0 0;
 }
-#darkgray{background-color:#181818;}
-#lightgray{background-color:#2b2b2b; font-size: 2em;}
-
+#darkgray{
+	background-color:#181818;
+}
+#lightgray{
+	background-color:#2b2b2b; font-size: 2em;
+}
+.history-name{
+	width:50px;
+	z-index: -1;
+	position:relative;
+}
 .clear{
 	clear:both;
 }
 .outro-div{
 	width:100%;
-	height:520px;
+	height:444px;
 	background-color: #e6e7e8;
 }
+.outro-div h1{
+	margin:0 0 4% 0;
+	letter-spacing: 0.4pt;
+	font-size:65px;
+	font-family: BlockGothicRR-LightExtraCond;
+	letter-spacing: .5px;
+}
+
 .learn-more{
+	padding:73px 0 10px 0;
 	margin: 0 auto;
-	width:914px;
-	padding:50px 0 10px 0;
+	width:951px;
+	line-height: 162%;
 }
 .learn-more li{
-	font-family: "Courier New" Courier monospace;
-	font-size: 17px;
-	line-height: 217%;
-
+	display: inline-block;
+	margin:0 16% 1% 0;
+	font-size:16px;
+	font-family:"Courier New", Courier monospace;
+	font-weight: normal;
 }
 .learn-more span{
-	font-size:20px;
+	font-size:17px;
 }
-.learn-more h1{
-	font-size: 100px;
-	margin-bottom:30px;
+.learn-more a{
+	text-decoration: none;
+	font-family:"Courier New", Courier monospace;
+	font-weight: normal;
+	color:black;
 }
 .learn-more button{
-	margin-left:41%;
-	margin-top: 39px;
+	margin-left:387px;
+	padding-bottom: 13px;
+	padding-right: 10px;
+	margin-top:36px;
 }
+.learn-more a:hover{
+	color:gray;
+}
+
 footer{ 
 	width:100%;
-	height:125px;
+	height:60px;
 	background-color: #000000;
 	color:white;
 	font-size: 2em;
 }
 .lastdiv-ever{
-	width:920px;
-	height:100px;
+	width:1043px;
+	/*height:100px;*/
 	margin: 0 auto;
 }
 .lastdiv-ever p{
 	font-family: "Courier New" Courier, monospace;
 	font-size: 15px;
 	font-weight: 100;
-	line-height: 735%;
+	margin-top: 20px;
+	margin-left:46px;
+	/*line-height: 735%;*/
 	float:left;
 }
 .small-punctuation{
@@ -482,31 +543,14 @@ footer{
 	vertical-align: top;
 }
 .social{
-	width:250px;
-	margin-top: 28px;
+	width:124px;
+	margin-right: 33px;
+	margin-top: 17px;
 	float:right;
 }
-.social img{
-	margin-right: 20px;
-}
-/*.facebook{
-	width:90px; 
-	height:90px; 
-	background-image:url("../images/facebook.png"); 
-	background-repeat:no-repeat;
-	background-size: 100%;
-}
 .twitter{
-	width:90px; 
-	height:90px; 
-	background-image:url("../images/twittericon.png"); 
-	background-repeat:no-repeat;
-	background-size: 100%;
+	margin:0 7px 1px 0;
 }
-.tumblr{
-	width:90px; 
-	height:90px; 
-	background-image:url("../images/tumblricon.png"); 
-	background-repeat:no-repeat;
-	background-size: 100%;
-}*/
+.facebook{
+	margin:0 8px 1px 0;
+}

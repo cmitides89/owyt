@@ -24,60 +24,61 @@
  <link rel="stylesheet" type="text/css" href="css/reset.css">
  <!-- <link rel="stylesheet" type="text/css" href="css/queries.css"> -->
  <link rel="stylesheet" type="text/css" href="css/style.css">
- <script src="scripts/jquery.viewport.mini.js"></script>
- <script src="scripts/jquery.backstretch.min.js"></script>
 </head>
 <body>
 	<div id="overlay-modal">
-		<a name="overlay-modal"></a>
-			<div class="inner-modal">
-				<h1>JOIN THE CAMPAIGN</h1>
-				<p>
-					While bullying is nothing new, technology amplifies the most destructive effects <br /> of this behavior. Anonymity can create a false sense of security, and social<br /> media allows hateful language to travel instantaneously over global networks.<br /> While there are instances where anonymity can help protect people from<br /> reprisal or protect their identity, it is often used to cloak hateful speech.
-				</p>
-				<br />
-				<p>
-					With this in mind, we will advocate for more constructive and thoughtful communication online by:
-				</p>
-				<br />
-				<ul>
-					<li>Holding ourselves to higher standards when communicating online.</li>
-					<li>Whenever possible, only writing what we would sign our names to.</li>
-					<li>Intervening when we observe others bullied or attacked.</li>
-				</ul>
-				<form action="process_email.php" method="REQUEST">
-	 				<p class="form" id="name" align="left">
-	 					<label for="name">Name</label>
-	 				
-	 				<input class="input" type="text" id="name" name="name"/></p>
-	 				<br />
-	 				<p class="form" id="email" align="left">
-	 				<label for="email">Email</label>
-	 				<input class="input" type="text" id="email" name="email"/></p>
-	 				<br />
-					 <p class="form" id="msg" align="left">
-					 <label for="message">Share your ideas on how to encourage others to own what they think:</label>					 
-					 <textarea id="message" name="message"></textarea></p>
-					 
-					<p class="form" align="left">
-						<input id="buttonz" type="submit" value="SUBMIT"/></p>
-					 <br />
-				</form>
-			</div>
+			<div class="xcontainer">
+				<div class="xbox"></div>
+				<div class="inner-modal">
+					<h1>JOIN THE CAMPAIGN</h1>
+					<p>
+						While bullying is nothing new, technology amplifies the most destructive effects <br /> of this behavior. Anonymity can create a false sense of security, and social<br /> media allows hateful language to travel instantaneously over global networks.<br /> While there are instances where anonymity can help protect people from<br /> reprisal or protect their identity, it is often used to cloak hateful speech.
+					</p>
+					<br />
+					<p>
+						By signing the pledge below, we agree to advocate for more constructive and thoughtful communication online by:
+					</p>
+					<br />
+					<ul>
+						<li>Holding ourselves to higher standards when communicating online.</li>
+						<li>Whenever possible, only writing what we would sign our names to.</li>
+						<li>Intervening when we observe others bullied or attacked.</li>
+					</ul>
+					<a name="overlay-modal"></a>
+					<form action="process_email.php" method="REQUEST">
+		 				<p class="form" id="name" align="left">
+		 					<label for="name">Name</label>
+		 				
+		 				<input class="input" type="text" id="name" name="name"/></p>
+		 				<br />
+		 				<p class="form" id="email" align="left">
+		 				<label for="email">Email</label>
+		 				<input class="input" type="text" id="email" name="email"/></p>
+		 				<br />
+						 <p class="form" id="msg" align="left">
+						 <label for="message">Share your ideas on how to encourage others to own what they think:</label>					 
+						 <textarea id="message" name="message"></textarea></p>
+						 
+						<p class="form" align="left">
+							<input id="buttonz" type="submit" value="SUBMIT"/></p>
+						 <br />
+					</form>
+				</div>
+			</div><!-- xcontainer-->
 		</div>
 		<div class="wrapper">
 			<div class="nav-wrapper">
 				<nav>
 					<h1>OWN WHAT YOU THINK</h1>
-					<a href="#join">JOIN</a>
+					<a class="join" href="#">JOIN</a>
 					<a href="#history">HISTORY</a>
 					<a href="#resources">RESOURCES</a>
-					<a href="#contact">CONTACT</a>
+					<a href="mailto:connordy@gmail.com?Subject=teach%20more" target="_top">CONTACT</a>
 				</nav>
 			</div>
 			<div class="container">
 			<div id="overlay"></div>
-				<div class="first-image">
+				<div class="first-image" id="first-image">
 					<!-- <img src="images/introimg.jpg" width="3840"/> -->
 					<div class="image-wrap">
 					<div style="margin: 0 auto; width: 900px;">
@@ -86,40 +87,42 @@
 							JAMEY RODEMEYER was an openly bisexual teenager known for</br> his activism against homophobia and his YouTube videos</br> addressing bullying.
 						</p>
 						<p class="jamey2">
-							Anonymous hate messages were posted on his Formspring</br> account including one that claimed: "I wouldn't care if</br> you died. No one would. So just do it  :) It would</br> make everyone WAY more happier!"
+							Anonymous hate messages were posted on his Formspring</br> account including one that claimed: &ldquo;I wouldn&rsquo;t care if</br> you died. No one would. So just do it  :) It would</br> make everyone WAY more happier!&rdquo;
 							</br>
 							<span>Jamey ultimately commited suicide. He was 14.</span>
 						</p>
-						<p class="rip-date">03.02.1997 - 09.18.2011</p>
+						<p class="rip-date">03.02.1997&mdash;09.18.2011</p>
 					</div>
 					</div>
 				</div>
 			</div>
 	<div class="container2">
-		<div class="intro-div"><a name="join"></a>
+		<div class="intro-div">
 			<div class="end-hate">
 				<h1>PUT AN END TO HATE.</h1>
-				<p>
-					ANYTHING WRITTEN ONLINE can become viral and enduring. Cruel language can lead to bullying and violence. Positive words can lead to learning and growth.
+				<p class="first-paragraph">
+					ANYTHING WRITTEN ONLINE can become viral and enduring. Cruel language can lead to</br> bullying and violence. Positive words can lead to learning and growth.
 				</p>
+
 				<p>
-					We believe that the way we behave online should be no different from the way that we behave in person. We believe that whenever possible, we should say or write online only that we'd be willing to ay or write in person. We pledge to intervene when we observe others being attacked or discriminated against, and to work to foster responsibile and accountable online disclourse.
+					We believe that the way we behave online should be no different from the way that we behave in person. We believe that whenever possible, we should say or write online only that we&rsquo;d be willing to say or write in person. We pledge to intervene when we observe others being attacked or discriminated against, and to work to foster responsibile and accountable online disclourse.
 				</p>
-				<a href="#overlay-modal"><button class="buttons" type="button">JOIN CAMPAIGN</button></a>
+				<a href="#overlay-modal"><button class="buttons" type="button">JOIN CAMPAIGN</button><a name="history"></a></a>
 			</div>
+			
 		</div>
 		<div class="moreinfo" id="lightgray">
-			<div class="moreinfo-inner"><a name="history"></a>
+			<div class="moreinfo-inner">
 				<h2>
-					<span class="small-punctuation">"</span>IF ANONYMITY BRINGS OUT THE WORST<br/> IN PEOPLE, THEN IS IT WISE TO CONDONE<br /> &amp; PASSIVELY SUPPORT TECHNOLOGY<br/> THAT FACILIATES SOCIAL TOXICITY?<span class="small-punctuation">"</span>
+					&ldquo;IF ANONYMITY BRINGS OUT THE WORST<br/> IN PEOPLE, THEN IS IT WISE TO CONDONE<br /> &amp; PASSIVELY SUPPORT TECHNOLOGY<br/> THAT FACILIATES SOCIAL TOXICITY?&rdquo;
 				</h2>
-				<a class="article" href="#">READ ARTICLE BY RANDY TARAN</a>
+				<span class="article"><a href="http://www.huffingtonpost.com/randy-taran/cyberbullying-apps_b_3941599.html">READ ARTICLE BY RANDY TARAN</a></span>
 			</div>
 		</div>
 		<div class="moreinfo" id="darkgray">
 			<div class="moreinfo-inner2">
 				<p>
-				By the late 00's, online gossip sites JuicyCampus<br /> and College ACB had agined enormous popularity.<br /> These sites encourage visitors to post anonymous<br /> and oftentimes malicious information about<br /> their peers, causing widespread cyberbullying and<br /> online character attacks such as asking<br /> students to rank "fattest sophmore girls" or<br/> list "closeted gays." This trend of posting<br /> anonymous and hurtful information online reached<br /> high schools and colleges across the country.
+				By the late 00&rsquo;s, online gossip sites JuicyCampus<br /> and College ACB had agined enormous popularity.<br /> These sites encourage visitors to post anonymous<br /> and oftentimes malicious information about<br /> their peers, causing widespread cyberbullying and<br /> online character attacks such as asking<br /> students to rank &ldquo;fattest sophmore girls&rdquo; or<br/> list &ldquo;closeted gays.&rdquo; This trend of posting<br /> anonymous and hurtful information online reached<br /> high schools and colleges across the country.
 				</p>
 			</div>
 		</div>
@@ -127,15 +130,15 @@
 		<div class="wrapper">
 			<div id="overlay2"></div>
 
-			<div class="second-image">
+			<div class="second-image" id="second-image">
 				<div class="image-wrap">
-				<div style="margin: 0 auto; width: 900px;">
+				<div style="margin: 0 auto; width: 906px;">
 					<p class="slut">SLUT</p>
-							<p class="rebecca" id="reb1">REBECCA ANN SEDWICK changed schools when her<br />mother discovered that she was being bullied online<br />by more than a dozen girls. Rebecca's mom even<br />shut down her Facebook profile. </p>
+							<p class="rebecca" id="reb1">REBECCA ANN SEDWICK changed schools when her<br />mother discovered that she was being bullied online<br />by more than a dozen girls. Rebecca&rsquo;s mom even<br />shut down her Facebook profile. </p>
 						
-						<p class="rip-date2">10.19.2000-09.09.2013</p>
+						<p class="rip-date2">10.19.2000&mdash;09.09.2013</p>
 						<p class="rebecca" id="reb2">
-							Rebecca continued to be bullied on anonymous forums<br />such as ask.fm, Kik and Voxer. She was bombared with<br />messages including, "Go kill yourself," and<br />"Why are you still alive?"
+							Rebecca continued to be bullied on anonymous forums<br />such as ask.fm, Kik and Voxer. She was bombared with<br />messages including, &ldquo;Go kill yourself,&rdquo; and<br /><span>&ldquo;Why are you still alive?&rdquo;</span>
 						</p> 
 						<p class="rebecca" id="reb3">
 							Rebecca took her life at age 12.
@@ -154,49 +157,54 @@
 			<div class="moreinfo" id="lightgray">
 				<div class="moreinfo-inner4">
 					<h2>
-						<span class="small-punctuation">"</span>WE NEED TO TEACH OUR CHILDREN NOT TO STAND SILENTLY BY WHILE OTHERS ARE BEING TORMENTED. IN THE END, THEY WILL BE SAFER ONLINE &amp; OFFLINE.<span class="small-punctuation">"</span>
+						&ldquo;WE NEED TO TEACH OUR CHILDREN NOT TO STAND SILENTLY BY WHILE OTHERS ARE BEING TORMENTED. IN THE END, THEY WILL BE SAFER ONLINE &amp; OFFLINE.&rdquo;
 					</h2>
-					<a href="#">READ ARTICLE BY WIRED SAFETY</a>
+					<a href="http://www.wjla.com/articles/2013/08/cyberbullying-prevention-how-can-parents-and-teachers-help-stop-the-trend--93090.html">READ ARTICLE BY WIRED SAFETY</a>
 				</div>
 			</div>
 			<div class="clear"></div>
 			<div class="outro-div">
-				<div class="learn-more"><a name="contact"></a>
+				<div class="learn-more">
 					<h1>LEARN MORE. REACH OUT.</h1>
 					<ul>
 						<li>
-							<span>A THIN LINE:</span> MTV'S Sexting, Cyberbullying &amp; Digital Dating Abuse Campaign
+							<a href="http://www.athinline.org/"><span>A THIN LINE:</span> MTV&rsquo;S Sexting, Cyberbullying &amp; Digital Dating Abuse Campaign</a>
 						</li>
 						<li>
-							<span>COMMON SENSE MEDIA:</span> Resource for Parents on Cyberbullying
+							<a href="http://www.commonsensemedia.org/cyberbullying"><span>COMMON SENSE MEDIA:</span> Resource for Parents on Cyberbullying</a>
 						</li>
 						<li>
-							<span>NO HATE SPEECH MOVMENT:</span> Youth Campaign for Human Rights Online
+							<a href="http://www.nohatespeechmovement.org/"><span>NO HATE SPEECH MOVEMENT:</span> Youth Campaign for Human Rights Online</a>
 						</li>
 						<li>
-							<span>THE TREVOR PROJECT:</span> Crisis Intervention / Suicide Prevention for LGBT Youth
+							<a href="http://www.thetrevorproject.org/"><span>THE TREVOR PROJECT:</span> Crisis Intervention / Suicide Prevention for LGBT Youth</a>
 						</li>
 						<li>
-							<span>STOP CYBERBULLYING:</span> Youth Education to Prevent Cyberbullying
+							<a href="http://youthsummit.stopcyberbullying.org/"><span>STOP CYBERBULLYING:</span> Youth Education to Prevent Cyberbullying</a>
 						</li>
 					</ul>
-					<a href="#overlay-modal"><button class="buttons" type="button">EMAIL US</button></a>
-					
-					
+					<a href="mailto:connordy@gmail.com?Subject=teach%20more" target="_top"><button type="button">EMAIL US</button></a>
 				</div>
+				
 			</div>
 		<footer>
 			<div class="lastdiv-ever">
 				<p>&copy; 2013 Own What You Think </p>
 				<!-- <div class="facebook social"></div> <div class="twitter social"></div> <div class="tumblr social"></div> -->
 				<div class="social">
-				 	 <img src="images/facebook.png" width="42" height="43"/> <img src="images/twittericon.png" width="32" height="33"/> <img src="images/tumblricon.png" width="32" height="33"/>
+				 	 <img class= "facebook" src="images/facebook.png" width="24" height="24" /> <img class="twitter" src="images/twittericon.png" width="24" height="23" /> <img class="tumblr" src="images/tumblricon.png" width="25" height="25"/>
 				</div>
 			</div>
 		</footer>
 	</div><!-- end of wrapper-->
-<script src="scripts/jquery.min.js"></script>
-<script src="scripts/effects.js"></script>
-<script src="scripts/waypoints.min.js"></script>
+ <script src="scripts/jquery-1.8.3.min.js"></script>
+ <script src="scripts/jquery.backstretch.min.js"></script>
+ <script src="scripts/effects.js"></script>	
+ <script>
+ 	$("#first-image").backstretch("images/introimg.jpg").removeAttr('style');
+ 	$("#second-image").backstretch("images/slut.jpg").removeAttr('style');
+ </script>
+ <script src="scripts/waypoints.min.js"></script>
+ <script src="scripts/jquery.viewport.mini.js"></script>
 </body>
 </html>
